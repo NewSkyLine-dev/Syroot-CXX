@@ -15,6 +15,7 @@ namespace Syroot::BinaryData::Core
 
             bool flag = false;
 
+            // TODO
             // Check if the value is defined in the enumeration.
             if (flag = value >= 0 && value < __number_of_enumerators(T))
             {
